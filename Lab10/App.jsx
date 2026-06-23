@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 const DataFetcher = () => {
-const [data, setData] = useState([]), [q, setQ] = useState(''), [err, setErr] = useState(null), [load, 
-setLoad] = useState(false);
+const [data, setData] = useState([]),
+ [q, setQ] = useState(''), 
+[err, setErr] = useState(null), 
+[load, setLoad] = useState(false);
 const fetchData = async () => {
 setLoad(true);
 try {
